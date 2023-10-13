@@ -134,7 +134,7 @@ findFreqTerms(dtm, lowfreq=30)   # Change "30" to whatever is most appropriate f
 
 # Another format to try
 wf <- data.frame(word=names(freq), freq=freq)  
-head(wf,20) # !! for presentation
+head(wf,20) # 
 
 ##################################
 ### 3.4 Plot Word Frequencies
