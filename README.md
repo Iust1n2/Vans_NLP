@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains code for conducting text mining and clustering analysis on textual data, used from the source listed in [Acknowledgements](#acknowledgements). The analysis includes preprocessing the text, exploring term frequencies, visualizing word clouds, and performing hierarchical and K-means clustering. It's designed for gaining insights from textual data and identifying patterns among terms.
+This repository contains code used from the source listed in [Acknowledgements](#acknowledgements) for conducting text mining and clustering analysis on reviews of a Vans product. The analysis includes preprocessing the text, exploring term frequencies, visualizing word clouds, and performing hierarchical and K-means clustering. It's designed for gaining insights from textual data and identifying patterns among terms.
 
 ## Table of Contents
 
