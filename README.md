@@ -1,6 +1,6 @@
 # Vans_NLP
 
-## Text Mining and Clustering Analysis
+## Text Mining and Clustering Analysis on Vans reviews
 
 ## Overview
 
