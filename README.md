@@ -33,13 +33,17 @@ Install the required R packages using the following commands: `install.packages(
 
 1. **Data Loading**: Load your textual data for analysis.
 
-2. **Preprocessing**: Clean and preprocess the text data, including removing punctuation, numbers, and stopwords.
+2. **Preprocessing**: Clean and preprocess the text data. This step includes removing punctuation, numbers, and stopwords to prepare the text for analysis.
 
-3. **Term Frequency**: Calculate term frequencies and explore the most frequent terms.
+3. **Term Frequency**: Calculate term frequencies within the text data. This allows you to understand which terms are the most frequently mentioned.
 
-4. **Word Clouds**: Create word cloud visualizations to display word frequencies.
+4. **Word Clouds**: Calculate term frequencies within the text data. This allows you to understand which terms are the most frequently mentioned.
 
-5. **Clustering**: Perform hierarchical clustering to identify term similarities and perform K-means clustering to group terms.
+5. **Clustering Analysis:**
+
+  - **Hierarchical Clustering:** Apply hierarchical clustering to identify term similarities. This step involves creating a dendrogram that visually represents the relationships between terms.
+   
+  - **K-Means Clustering:** Perform K-means clustering to group terms based on their similarity. The K-means clustering algorithm allows to explore how terms cluster together, which can be valuable for topic modeling or identifying themes in the text data
 
 6. **Customization**: Adjust the code to meet your specific analysis requirements.
 
