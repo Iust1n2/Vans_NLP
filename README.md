@@ -33,17 +33,17 @@ Install the required R packages using the following commands: `install.packages(
 
 1. **Data Loading**: Load your textual data for analysis.
 
-2. **Preprocessing**: Clean and preprocess the text data. This step includes removing punctuation, numbers, and stopwords to prepare the text for analysis.
+2. **Preprocessing**: Clean and preprocess the text data. This step includes removing punctuation, numbers, and stopwords to prepare the text for analysis, using the `tm` package.
 
-3. **Term Frequency**: Calculate term frequencies within the text data. This allows you to understand which terms are the most frequently mentioned.
+3. **Term Frequency**: Calculate term frequencies within the text data. This allows you to understand which terms are the most frequently mentioned and the `ggplot2` package provides visuals for this task. 
 
-4. **Word Clouds**: Calculate term frequencies within the text data. This allows you to understand which terms are the most frequently mentioned.
+4. **Word Clouds**: Visualize term frequencies with the `wordcloud` package.
 
 5. **Clustering Analysis:**
 
-  - **Hierarchical Clustering:** Apply hierarchical clustering to identify term similarities. This step involves creating a dendrogram that visually represents the relationships between terms.
+  - **Hierarchical Clustering:** Apply hierarchical clustering to identify term similarities. This step involves creating a dendrogram that visually represents the relationships between terms, using the `ggdendro` package.
    
-  - **K-Means Clustering:** Perform K-means clustering to group terms based on their similarity. The K-means clustering algorithm allows to explore how terms cluster together, which can be valuable for topic modeling or identifying themes in the text data
+  - **K-Means Clustering:** Perform K-means clustering to group terms based on their similarity. The K-means clustering algorithm allows to explore how terms cluster together, which can be valuable for topic modeling or identifying themes in the text data and this can be done with the help of `fpc` and `cluster` packages.
 
 6. **Customization**: Adjust the code to meet your specific analysis requirements.
 
