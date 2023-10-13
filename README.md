@@ -23,7 +23,7 @@ This repository contains code for conducting text mining and clustering analysis
 Before you begin, ensure you have met the following requirements:
 
 - R and RStudio installed
-- Required R packages (listed in [Installation](Installation)).
+- Required R packages (listed in [Installation](#installation)).
 
 ### Installation
 
