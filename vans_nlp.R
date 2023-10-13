@@ -342,10 +342,10 @@ clusplot(scaled_dtms, cluster_assignments, color = T, shade = T, labels = 2, lin
 # The dendrogram reflects the results of the k-means clustering, with words clustered based on their
 # similarity and co-occurence patterns.
 
-# The concentration of many overlapping words on the left end of the dendrogram suggests that 
-# the k-means algorithm has identified one or more clusters with a large number of words that 
+# The concentration of many overlapping words on one end of the dendrogram suggests that 
+# the K-means algorithm has identified one or more clusters with a large number of words that 
 # are closely related.
 
-# The presence of only a few words at the right end of the dendrogram indicates that there 
+# The presence of only a few words at the other end of the dendrogram indicates that there 
 # are clusters with a minimal number of words that are quite distinct from the larger clusters. 
 # These clusters may represent more niche or specific terms.
