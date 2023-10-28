@@ -277,6 +277,10 @@ clusplot(scaled_dtms, cluster_assignments, color = T, shade = T, labels = 2, lin
 # are clusters with a minimal number of words that are quite distinct from the larger clusters. 
 # These clusters may represent more niche or specific terms.
 
+# Below is the corrected implementation of K-means clustering.
+
+### 5.2.1 
+
 library(fpc)   
 library(cluster) 
 # terms_of_interest <- c("size", "fit","great", "vans" ,"like", "good", "look", "new", "happy", "pleased", "pair", "perfect", "color")
